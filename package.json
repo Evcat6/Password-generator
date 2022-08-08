@@ -1,0 +1,16 @@
+{
+  "name": "pasword-generator",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --open --port 4000",
+    "build": "parcel build"
+  },  
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "compressors": {
+    "*.{html,css,js,svg,map}": ["@parcel/compressor-gzip"]
+  }
+
+}
