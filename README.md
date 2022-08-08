@@ -1,5 +1,4 @@
 # Password-generator
-Password-generator
 
 
 ## Usage
